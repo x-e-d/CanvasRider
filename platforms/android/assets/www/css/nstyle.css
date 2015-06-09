@@ -1,0 +1,79 @@
+@font-face { font-family:"eiven"; src:url("eiven.eot"); }
+@font-face { font-family:"eiven"; src:url("eiven.ttf") format("truetype"); }
+body { margin:0; font-family:"eiven"; font-size:8px; text-align:center; text-shadow:0 0 1px #BBBBBB; background-color:white; background:url("../images/bg.png") top fixed no-repeat; letter-spacing:1px; font-smooth:never;}
+
+
+
+header canvas { background-color:white; }
+
+#menu
+{
+	position:fixed;
+	top:100px;
+	left:0;
+	width:100%;
+	background-color:white;
+	border-top:1px solid black; border-bottom:1px solid black;
+	padding:10px;
+	z-index:3;
+	box-shadow: 2px 2px 4px #AAAAAA;
+	-moz-box-shadow: 2px 2px 4px #AAAAAA;
+	-webkit-box-shadow: 2px 2px 4px #AAAAAA;
+}
+
+#content
+{
+	width:100%;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	background-color:white;
+}
+
+.thumbnail
+{
+	width:300px;
+	height:176px;
+	line-height:12px;
+	float:left;
+	overflow:hidden;
+}
+
+#content a { color:black; text-decoration:none; border-bottom:1px solid #AAAAAA; } #content a:hover { border-bottom:1px solid black; }
+#content .thumbnail a:first-child { border-bottom-color:black; }
+.button { display:block; width:250px; height:150px; border:1px solid black; margin:0 20px 0 20px; box-shadow: inset -2px -2px 6px #AAAAAA; border-radius:20px; }
+.button:hover { border:1px solid black; box-shadow: inset 2px 2px 6px #AAAAAA; }
+.featured { border-color:blue; }
+
+h1 { font-size:8px; font-weight:normal; }
+h1 img { vertical-align:middle; border:none; }
+
+#content canvas {  border:1px solid black; z-index:2; position:relative; background-color:white; }
+
+ul { margin:0; padding-bottom:20px; } li { padding-top:20px; }
+
+
+.floatLeft { float:left; }
+.floatRight { float:right; }
+.alignLeft { text-align:left; }
+.clearer { clear:both; margin-top:10px; margin-bottom:10px; }
+.big { margin-bottom:30px; }
+.spacer { margin:5px; }
+.red { color:red; padding-left:3px; padding-right:3px; }
+.green { color:green; padding-left:3px; padding-right:3px; }
+.underlined { border-bottom:1px solid #AAAAAA; padding-bottom:10px; margin:10px 20px 10px 20px; }
+.padded { padding: 20px 30px 40px 30px; }
+.notice { color:blue; margin-bottom:15px; }
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
